@@ -28,6 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
     }
 });
 
+//load the initial welcome page
 var HelloWorldScene = cc.Scene.extend({
     onEnter:function () {
         this._super();
@@ -35,4 +36,3 @@ var HelloWorldScene = cc.Scene.extend({
         this.addChild(layer);
     }
 });
-
